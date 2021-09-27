@@ -3,7 +3,7 @@
 image="infnpd/mucoll-ilc-framework"
 image_tag="1.5-centos8"
 default_config_dirname="ProductionConfig"
-default_config_path="${PWD}/../${default_config_dirname}"
+default_config_path="${PWD}/${default_config_dirname}"
 default_workdir="${PWD}"
 
 function print_usage {
